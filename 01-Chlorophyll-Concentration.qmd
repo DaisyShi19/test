@@ -6,6 +6,10 @@ format:
     reference-doc: Palau-Reference-Doc.docx
 ---
 
+
+#add text
+
+
 ```{r}
 #| include: false
 ### Load libraries
@@ -13,6 +17,9 @@ library(tidyverse)
 library(lubridate)
 library(here)
 library(stringr)
+#install.packages('remotes')
+#remotes::install_github("nmfs-fish-tools/nmfspalette")
+#https://github.com/nmfs-fish-tools/nmfspalette
 library(nmfspalette)
 library(rerddap)
 ```
